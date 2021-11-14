@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto';
+}
+
+body {
+    width: 95%;
+    max-width: 800px;
+    height: 100vh;
+    background-image: linear-gradient(to top, #A5CFE7, #D3E6F4, #F7EEF1);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+main {
+    padding: 50px 40px;
+    margin-top: 20px;
+    background: #00000054;
+    border-radius: 10px;
+}
+
+p{
+    margin: 10px;
+    font-size: 18px;
+}
+
+.logo, .headline, .name {
+    text-align: center;
+}
+
+.logo img {
+    height: 8rem;
+
+}
+
+.contatos {
+    margin: 30px 0;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones{
+    height: 2rem;
+}
+
+.contatos table{
+    background: #00000030;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 0 auto;
+    text-align: justify;
+    
+}
+
